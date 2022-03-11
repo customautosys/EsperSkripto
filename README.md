@@ -1,24 +1,4 @@
-# typescript-npm-cli-template
-
-> Boilerplate to kickstart creating a Node.js command-line tool
-
-Inspired by [node-cli-boilerplate](https://github.com/sindresorhus/node-cli-boilerplate)
-
-## Getting started
-
-**Click the "Use this template" button.**
-
-Alternatively, create a new directory and then run:
-
-```bash
-curl -fsSL https://github.com/ryansonshine/typescript-npm-cli-template/archive/main.tar.gz | tar -xz --strip-components=1
-```
-
-**Remove everything from here and above**
-
----
-
-# my-cli-name
+# EsperScript
 
 [![npm package][npm-img]][npm-url]
 [![Build Status][build-img]][build-url]
@@ -28,41 +8,28 @@ curl -fsSL https://github.com/ryansonshine/typescript-npm-cli-template/archive/m
 [![Commitizen Friendly][commitizen-img]][commitizen-url]
 [![Semantic Release][semantic-release-img]][semantic-release-url]
 
-> My awesome command-line tool
+> A multilingual transpiler for JavaScript, with the initial languages being Chinese (Mandarin) and Esperanto
 
 ## Install
 
 ```bash
-npm install my-cli-name
+npm install -g esperscript
 ```
 
 ## Usage
 
 ```bash
-Usage: my-command [options]
+Usage: esperscript [options] [--ts filename.ts | filename.js]
 
 Options:
-  -V, --version            output the version number
-  -d, --debug              enables verbose logging (default: false)
-  -v, --verbose            enables verbose logging (default: false)
+  -V, --version             output the version number
+  -d, --debug               enables verbose logging (default: false)
+  -v, --verbose             enables verbose logging (default: false)
+  -t, --typescript          the file to be translated is in TypeScript
+  -l, --language <language> translate from the language specified, currently supported languages are: zh-cmn-Hans (Simplified Chinese - Mandarin), eo (Esperanto)
 
 Examples:
 
-  $ my-command --version
-  1.0.0
+  $ esperscript --version
+  0.0.1
 ```
-
-[build-img]:https://github.com/ryansonshine/typescript-npm-cli-template/actions/workflows/release.yml/badge.svg
-[build-url]:https://github.com/ryansonshine/typescript-npm-cli-template/actions/workflows/release.yml
-[downloads-img]:https://img.shields.io/npm/dt/typescript-npm-cli-template
-[downloads-url]:https://www.npmtrends.com/typescript-npm-cli-template
-[npm-img]:https://img.shields.io/npm/v/typescript-npm-cli-template
-[npm-url]:https://www.npmjs.com/package/typescript-npm-cli-template
-[issues-img]:https://img.shields.io/github/issues/ryansonshine/typescript-npm-cli-template
-[issues-url]:https://github.com/ryansonshine/typescript-npm-cli-template/issues
-[codecov-img]:https://codecov.io/gh/ryansonshine/typescript-npm-cli-template/branch/main/graph/badge.svg
-[codecov-url]:https://codecov.io/gh/ryansonshine/typescript-npm-cli-template
-[semantic-release-img]:https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
-[semantic-release-url]:https://github.com/semantic-release/semantic-release
-[commitizen-img]:https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
-[commitizen-url]:http://commitizen.github.io/cz-cli/

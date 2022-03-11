@@ -1,13 +1,18 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "strict": true,
-    "outDir": "lib/",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "declaration": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "include": ["src/**/*.ts"]
+	"compilerOptions":{
+		"target":"es2017",
+		"module":"es2022",
+		"strict":true,
+		"outDir":"lib/",
+		"esModuleInterop":true,
+		"skipLibCheck":true,
+		"declaration":true,
+		"forceConsistentCasingInFileNames":true,
+		"resolveJsonModule":true,
+		"moduleResolution":"node",
+		"allowSyntheticDefaultImports":true
+	},
+	"include":[
+		"src/**/*.ts"
+	]
 }
