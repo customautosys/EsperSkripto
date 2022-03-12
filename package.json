@@ -1,5 +1,5 @@
 {
-	"name": "esperscript",
+	"name": "esperskripto",
 	"version": "0.0.1",
 	"description": "A multilingual transpiler for JavaScript, with the initial languages being Chinese (Mandarin) and Esperanto",
 	"files": [
@@ -8,7 +8,7 @@
 		"bin/**/*"
 	],
 	"bin": {
-		"esperscript": "./bin/index.js"
+		"esperskripto": "./bin/index.js"
 	},
 	"scripts": {
 		"build": "tsc&&cp -R src/languages lib/",
@@ -29,7 +29,7 @@
 	"author": {
 		"name": "Wilson Foo Yu Kang",
 		"email": "wilson.foo@customautosys.com",
-		"url": "https://github.com/siauderman/EsperScript"
+		"url": "https://github.com/siauderman/EsperSkripto"
 	},
 	"engines": {
 		"node": ">=12.0"

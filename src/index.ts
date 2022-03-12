@@ -8,7 +8,7 @@ const program=new Command();
 
 program
 	.version(packageJson.version)
-	.name('esperscript')
+	.name('esperskripto')
 	.option('-d, --debug','enables verbose logging',false)
 	.option('-v, --verbose','enables verbose logging',false)
 	.option('-t, --typescript','the file to be translated is in TypeScript',false)
