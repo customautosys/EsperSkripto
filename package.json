@@ -1,6 +1,6 @@
 {
 	"name": "esperskripto",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A multilingual transpiler for JavaScript, with the initial languages being Chinese (Mandarin) and Esperanto",
 	"files": [
 		"!lib/__tests__/**/*",
@@ -23,7 +23,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ryansonshine/typescript-npm-cli-template.git"
+		"url": "git+https://github.com/siauderman/EsperSkripto.git"
 	},
 	"license": "GPL-3.0",
 	"author": {
@@ -47,9 +47,9 @@
 		"codecov"
 	],
 	"bugs": {
-		"url": "https://github.com/ryansonshine/typescript-npm-cli-template/issues"
+		"url": "https://github.com/siauderman/EsperSkripto/issues"
 	},
-	"homepage": "https://github.com/ryansonshine/typescript-npm-cli-template#readme",
+	"homepage": "https://github.com/siauderman/EsperSkripto#readme",
 	"dependencies": {
 		"commander": "^9.0.0"
 	},
